@@ -4,7 +4,16 @@ layout: default
 {% set isPostLayout = true %}
 
 {% block content %}
-    {% include 'post.html' with { 'post': page } %}
+    <article class="post">
+        <header>
+            <div class="title"><a
+                        href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></div>
+        </header>
+        <div class="text">
+            {{ page.content | raw }}
+        </div>
+
+    </article>
 {% endblock %}
 
 {% block javascript %}

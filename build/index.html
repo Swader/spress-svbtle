@@ -1,8 +1,8 @@
 <!DOCTYPE HTML>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-<title>Welcome Spresso theme</title>
+<head>
+    <meta charset="utf-8">
+<title>Welcome Svbtle theme</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Svbtle Theme for Spress by @bitfalls">
 <meta name="author" content="Bruno Skvorc">
@@ -10,13 +10,13 @@
 
             <meta name="twitter:card" content="summary">
         <meta name="twitter:image" content="/assets/img/spresso-logo.png">
-    <meta name="twitter:title" content="Welcome Spresso theme">
+    <meta name="twitter:title" content="Welcome Svbtle theme">
     <meta name="twitter:description" content="Svbtle Theme for Spress by @bitfalls">
     <meta name="twitter:creator" content="@bitfalls">
 
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Welcome Spresso theme">
+<meta property="og:title" content="Welcome Svbtle theme">
 <meta property="og:description" content="Svbtle Theme for Spress by @bitfalls">
 <meta property="og:url" content="/">
 <meta property="og:site_name" content="Spress - Svbtle Theme">
@@ -30,47 +30,52 @@
 
 
 <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-<link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
-<link href="/assets/css/style.css" rel="stylesheet" media="screen">
+<!--<link href="/assets/css/bootstrap.min.css" rel="stylesheet" media="screen">-->
+<!--<link href="/assets/css/style.css" rel="stylesheet" media="screen">-->
+<link href="/assets/css/svbtle.css" rel="stylesheet" type="text/css" />
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
-    </head>
-    <body>
-        <div class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-brand">
-            <a class="label label-primary" href="/">Spress - Svbtle Theme</a>
-        </div>
-      </div>
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-        <li><a href="/">
-        Home</a>
-    </li>
-        <li><a href="/projects">
-        Projects</a>
-    </li>
-    </ul>
-      </div><!--/.nav-collapse -->
+</head>
+<body>
+<div class="sidebar">
+    <!-- Logo -->
+    <div class="logo">
+        <a href="/" title="Spress - Svbtle Theme">
+            <span class="img"></span>
+        </a>
+        <a href="/" title="Spress - Svbtle Theme">
+            <h1>Spress - Svbtle Theme</h1>
+        </a>
+    </div>
+    <!-- Description -->
+    <div class="description">
+        Some blog posts by <a
+            href="/about">me</a>.
+    </div>
+    <!-- Navigation -->
+    <div class="navigation">
+        <a href="/blog">Archive</a>
+                                    <a href="/about">About</a>
     </div>
 </div>
 
-        <div class="container spresso-wrap">
-                            <article class="post">
-    <header>
-        <h1>
-            <a href="/new-posts/2016/01/05/my-new-post">My new post</a>
-        </h1>
-    </header>
-    
-    <h1>Hello from Spress</h1>
+<div id="main" class="container spresso-wrap">
+        
+    <div class="date">
+        <a href="/new-posts/2016/01/05/my-new-post">
+            05. January, 2016
+        </a>
+
+    </div>
+
+    <article class="post">
+        <header>
+            <div class="title"><a
+                        href="/new-posts/2016/01/05/my-new-post">My new post</a></div>
+        </header>
+        <div class="text">
+
+                            <h1>Hello from Spress</h1>
 
 <p>I am writing my Spress post</p>
 
@@ -95,37 +100,76 @@ $this-&gt;is('a code block without highlights');
 <li>list item</li>
 </ul>
 
-    
+            
+        </div>
     </article>
-            <article class="post">
-    <header>
-        <h1>
-            <a href="/2015/07/26/welcome-to-spress">Welcome to Spress</a>
-        </h1>
-    </header>
-    
-    <p>To create a new post, simply runs <code>spress new:post</code> command or adds a file
+
+
+    <div class="date">
+        <a href="/2015/07/26/welcome-to-spress">
+            26. July, 2015
+        </a>
+
+    </div>
+
+    <article class="post">
+        <header>
+            <div class="title"><a
+                        href="/2015/07/26/welcome-to-spress">Welcome to Spress</a></div>
+        </header>
+        <div class="text">
+
+                            <p>To create a new post, simply runs <code>spress new:post</code> command or adds a file
 in the <code>./src/content/posts</code> folder that follows the convention <code>YYYY-MM-DD-name-of-post.md</code>.</p>
 
-<p>More information about Spress:</p>
 
-<ul>
-<li><a href="http://spress.yosymfony.com">Spress</a></li>
-<li><a href="http://github.com/spress">Github</a></li>
-</ul>
-
-<p><a href="https://gitter.im/spress/Spress?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter" /></a></p>
-
-    
+                <footer><a href='/2015/07/26/welcome-to-spress' class='continue'> Read more </a>
+                </footer>
+            
+        </div>
     </article>
-            <article class="post">
-    <header>
-        <h1>
-            <a href="/articles/2014/01/18/sample-post">Sample Post</a>
-        </h1>
-    </header>
-    
-    <p>Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
+
+
+    <div class="date">
+        <a href="/2015/07/26/welcome-to-spress">
+            26. July, 2015
+        </a>
+
+    </div>
+
+    <article class="post">
+        <header>
+            <div class="title"><a
+                        href="/2015/07/26/welcome-to-spress">Welcome to Spress</a></div>
+        </header>
+        <div class="text">
+
+                            <p>To create a new post, simply runs <code>spress new:post</code> command or adds a file
+in the <code>./src/content/posts</code> folder that follows the convention <code>YYYY-MM-DD-name-of-post.md</code>.</p>
+
+
+                <footer><a href='/2015/07/26/welcome-to-spress' class='continue'> Read more </a>
+                </footer>
+            
+        </div>
+    </article>
+
+
+    <div class="date">
+        <a href="/articles/2014/01/18/sample-post">
+            18. January, 2014
+        </a>
+
+    </div>
+
+    <article class="post">
+        <header>
+            <div class="title"><a
+                        href="/articles/2014/01/18/sample-post">Sample Post</a></div>
+        </header>
+        <div class="text">
+
+                            <p>Below is just about everything you'll need to style in the theme. Check the source code to see the many embedded elements within paragraphs.</p>
 
 <h1>Heading 1</h1>
 
@@ -220,60 +264,20 @@ in the <code>./src/content/posts</code> folder that follows the convention <code
 
 <div><a href="#" class="btn btn-default">This is a button</a></div>
 
-    
-    </article>
-    
-
+            
         </div>
-            
-        <footer id="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <ul class="list-inline">
-        <li><a href="https://bitfalls.com">
-        Read an awesome blog</a>
-    </li>
-    </ul>
-                    </div>
-                    <div class="col-md-6 text-right">
-                        <ul class="list-inline">
-        <li>
-        <a href="https://twitter.com/bitfalls">
-            <i class="fa fa-twitter fa-2x"></i>
-        </a>
-    </li>
-        
-        
-        
-        
-        <li>
-        <a href="https://github.com/swader">
-            <i class="fa fa-github fa-2x"></i>
-        </a>
-    </li>
-        
-        
-    </ul>
-                    </div>
-                </div>
-                <p class="text-center">
-                    <a href="https://github.com/yosymfony/Spress-theme-spresso" title="Spresso theme">
-                        <img src="/assets/img/spresso-logo.png"/>
-                    </a>
-                </p>
-                <p class="text-center">
-                    &copy; 2016 Bruno Skvorc.
-                    Powered by <a href="http://spress.yosymfony.com">Spress</a>.
-                </p>
-            </div>
-            
-            <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-            <script src="/assets/js/bootstrap.min.js"></script>
-            
-                            <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-                <script>hljs.initHighlightingOnLoad();</script>
-                        
-                    </footer>
-    </body>
+    </article>
+
+
+
+
+</div>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+    
+</body>
 </html>

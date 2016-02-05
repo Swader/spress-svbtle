@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "My new post"
 categories: [new-posts]
 tags: [new,something,tag-example]

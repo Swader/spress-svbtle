@@ -111,6 +111,28 @@
                 <description><![CDATA[<p>To create a new post, simply runs <code>spress new:post</code> command or adds a file
 in the <code>./src/content/posts</code> folder that follows the convention <code>YYYY-MM-DD-name-of-post.md</code>.</p>
 
+<!--more-->
+
+<p>More information about Spress:</p>
+
+<ul>
+<li><a href="http://spress.yosymfony.com">Spress</a></li>
+<li><a href="http://github.com/spress">Github</a></li>
+</ul>
+
+<p><a href="https://gitter.im/spress/Spress?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Gitter" /></a></p>
+]]></description>
+                <link>/2015/07/26/welcome-to-spress</link>
+                <pubDate>Sun, 26 Jul 2015 00:00:00 +0000</pubDate>
+                <guid>/2015/07/26/welcome-to-spress</guid>
+            </item>
+                    <item>
+                <title>Welcome to Spress</title>
+                <description><![CDATA[<p>To create a new post, simply runs <code>spress new:post</code> command or adds a file
+in the <code>./src/content/posts</code> folder that follows the convention <code>YYYY-MM-DD-name-of-post.md</code>.</p>
+
+<!--more-->
+
 <p>More information about Spress:</p>
 
 <ul>
